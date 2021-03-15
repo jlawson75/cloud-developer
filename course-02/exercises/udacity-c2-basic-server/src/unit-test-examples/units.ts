@@ -10,6 +10,11 @@ export const divide = (a: number, b: number) => {
     return a / b;
     }
 
+export const concat = (str1: string, str2: string) => {
+    if (!str1 || !str2) { throw new Error('No empty string allowed') }
+
+    return str1 + ' ' + str2;
+}
 // @TODO try creating a method "concat" to concatenate two strings
 // it should take two string paramaters.
 // it should return one string combining the two strings.
