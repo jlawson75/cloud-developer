@@ -10,3 +10,22 @@
     <AllowedHeader>*</AllowedHeader>
 </CORSRule>
 </CORSConfiguration>
+
+
+[
+    {
+        "AllowedHeaders": [
+            "*"
+        ],
+        "AllowedMethods": [
+            "PUT",
+            "POST",
+            "DELETE",
+            "GET",
+            "HEAD"
+        ],
+        "AllowedOrigins": [
+            "*"
+        ],
+    }
+]
