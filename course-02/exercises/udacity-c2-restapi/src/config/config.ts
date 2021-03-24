@@ -1,13 +1,13 @@
 export const config = {
   "dev": {
-    "username": process.env.POSTGRES_USERNAME,
-    "password": process.env.POSTGRES_PASSWORD,
-    "database": process.env.POSTGRES_DATABASE,
-    "host": process.env.POSTGRES_HOST,
+    "username": "udagramlawsondev", //process.env.POSTGRES_USERNAME,
+    "password": "udagramlawsondev", //process.env.POSTGRES_PASSWORD,
+    "database": "udagramlawsondev", //process.env.POSTGRES_DATABASE,
+    "host":  "udagramlawsondev.cqpuyull1uls.us-east-1.rds.amazonaws.com", //process.env.POSTGRES_HOST,
     "dialect": "postgres",
-    "aws_region": process.env.AWS_REGION,
-    "aws_profile": process.env.AWS_PROFILE,
-    "aws_media_bucket": process.env.AWS_MEDIA_BUCKET 
+    "aws_region": "us-east-1", //process.env.AWS_REGION,
+    "aws_profile": "default", //process.env.AWS_PROFILE,
+    "aws_media_bucket": "udagram-lawson-dev" //process.env.AWS_MEDIA_BUCKET 
   },
   "prod": {
     "username": "",
